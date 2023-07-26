@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Variables</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <h1 class="main-heading">Updating CSS Variables With <span class="highlight">JS</span></h1>
+            
+            <div class="controls-div">
+                <div class="controls padding-control">
+                    <label for="padding">Padding: </label>
+                    <input type="range" name="padding" min="0" max="50" value="10" data-sizing="px">
+                </div>
+                <div class="controls blur-control">
+                    <label for="blur">Blur: </label>
+                    <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+                </div>
+                <div class="controls color-control">
+                    <label for="color">Color: </label>
+                    <input type="color" name="color" value="#ffffff">
+                </div>
+            </div>
+
+            <div class="img-div">
+                <img src="Photos/anime-cityscape-buildings-sky-sunlight-anime-19503.jpg" alt="">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
